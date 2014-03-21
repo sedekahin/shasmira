@@ -1,0 +1,7 @@
+web1: 
+  name: web1-lorene 
+  php_upload_max_filesize: "20M"
+  php_max_execution_time: 600
+  php_max_input_time: 620
+  php_extensions:
+    - curl

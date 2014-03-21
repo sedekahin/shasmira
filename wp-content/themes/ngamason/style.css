@@ -1,0 +1,378 @@
+/*
+Theme Name: Ngamason
+Theme URI: http://pulsawae.com
+Author: Pulsawae 
+Author URI: http://pulsawae.com
+Description: Theme Semi Manual Amazone
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: amazone,e-commerce,shop
+Text Domain: ngamason
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+
+}
+
+a, a:hover {
+text-decoration:none;	
+color:#000;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+span {
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;	
+}
+
+.wp-pagenavi a {
+	font-size:13px;	
+
+}
+
+img {
+	padding:5px;
+	border:1px solid #CCC;	
+	border-radius: 5px; 
+	-moz-border-radius: 0.4em;
+}
+
+#wraper {
+width:auto;
+height:auto;
+}
+
+#header {
+	width:auto;
+	height:100px;	
+	
+}
+
+#atas {
+	width:850px;
+	height:100px;
+	margin-left: auto ;
+  margin-right: auto ;
+}
+
+#navigasi {
+	width:auto;
+	height:30px;
+	background:#039;
+	
+
+}
+
+#menu-page {
+	width:850px;
+	height:35px;
+	margin-left: auto ;
+  margin-right: auto ;
+  padding-top:7px;
+}
+
+#judul {
+	height:90px;
+	width:auto;	
+  border:1px solid #FFF;
+  float:left
+}
+
+#banner {
+	width:520px;
+	height:80px;
+	background:#03C;	
+}
+
+.clear {
+	clear:both;
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-bottom:-10px;
+	width:auto;
+	
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+}
+
+.tag-line {
+	font-size:16px;
+}
+
+
+#isi {
+	height:auto;
+	width:900px;
+	margin-left: auto ;
+  margin-right: auto ;
+ 
+ 
+}
+
+#single {
+	width:900px;
+	margin-left: auto ;
+  margin-right: auto ;
+  margin-top:50px;
+}
+
+#pages{
+	width:850px;
+	margin-left: auto ;
+  margin-right: auto ;
+  margin-top:50px;
+  min-height:350px;
+}
+
+#menu-page ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#menu-page li {
+display:inline;
+padding-right:30px;
+}
+
+
+#menu-page li a {
+color:#fff;
+text-decoration:none;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+padding-right:40px;
+float:left
+}
+
+#menu-page li a:hover {
+	font-size:13px;
+color:#fff;
+text-decoration:none;
+font-family:Arial, Helvetica, sans-serif;
+padding-right:40px;
+float:left
+}
+
+
+#produk {
+ padding:0px;
+ margin-top:50px;	
+}
+
+#kotak {
+	width:215px;
+	height:285px;
+	float:left;
+	border:0px solid;
+	margin:3px;
+	text-align:center
+}
+	
+	
+ a.judul {
+	font-face:arial;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+ a:hover.judul{
+	font-face:arial;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	text-align:center	;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+.harga {
+	font-face:arial;
+	font-size:16px;	
+}
+
+#footer {
+	height:100px;
+	width:900px;	
+	margin-left: auto ;
+  margin-right: auto ; border-top:1px dotted #666;
+}
+
+
+#detail1 {
+	width:300px;
+	height:auto;
+	border:0px solid;	
+	float:left;
+	text-align:center
+}
+
+#detail2 {
+	width:400px;
+	height:auto;
+	border:0px solid;	
+	float:left;
+}
+
+a.tombol {
+	background:#039; 
+	color:#fff; 
+	font-weight:bold;
+	font-size:16px;
+	width:200px; 
+	display:block;
+	border:none;
+	padding:12px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius: 12px; 
+	-moz-border-radius: 0.11em;
+	text-align:center;
+	   
+}
+
+a.tombol:hover {
+	background:#06F; 
+	text-align:center;
+	color:#fff; 
+	font-weight:bold;
+	font-size:16px;
+	width:200px; 
+	display:block;
+	border:none;
+	padding:12px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius: 12px; 
+	-moz-border-radius: 0.11em;
+	   
+}
+
+#produk-random {
+	height:200px;
+	width:850px;	
+	margin-left: auto ;
+  margin-right: auto ; 
+}
+
+#kotak-acak {
+	width:260px;
+	height:110px;
+	float:left;
+	border:0px solid;
+	margin:3px;
+	
+}
+
+.gambar-acak {
+	float:left;
+	padding-right:5px;	
+	margin-right:5px;
+}
+
+#ndukur {
+	height:60px;
+	width:auto;
+}
+
+#ngisor {
+	height:30px; height:auto;
+}
+
+.tempat-tombol2 {
+	margin-bottom:20px;
+	
+}
+
+a.tombol2 {
+	background:#039; 
+	color:#fff; 
+	font-weight:bold;
+	font-size:13px;
+	
+	
+	border:none;
+	padding:7px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius: 8px; 
+	-moz-border-radius: 0.7em;
+	padding-left:15px;
+	padding-right:15px;
+	
+	text-align:center; vertical-align:text-bottom; margin-top:20px; position:absolute
+	   
+}
+
+a.tombol2:hover {
+	background:#06F; 
+	text-align:center;
+	color:#fff; 
+	font-weight:bold;
+	font-size:13px;
+	border:none;
+	padding:7px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius: 8px; 
+	-moz-border-radius: 0.7em;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#nav-halaman {
+	text-align:center;
+	margin-top:20px;	
+}
+
+#respond { display: none; }
+
+#ket1 {
+	float:left;
+	width:15%;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px
+}
+
+#ket2 {
+	float:left;
+	width:50%;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px
+	
+}
+
+.posted-by {
+	font-family : arial;
+	font-size:13px; 
+	font-style:italic	
+}
