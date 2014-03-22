@@ -14,3 +14,6 @@ db1:
   php_max_input_time: 620
   php_extensions:
     - curl
+  
+  zend_extensions:
+    - ioncube_loader
