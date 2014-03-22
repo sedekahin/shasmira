@@ -1,7 +1,8 @@
 web1: 
   name: wp-web 
   shared_writable_dirs:
-    - root/.htaccess
+    - /
+    - "*/.htaccess"
     - wp-content/uploads/
   after_build:
     - "mv pagoda/wp-config.php wp-config.php"
