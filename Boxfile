@@ -14,10 +14,8 @@ db1:
   php_max_input_time: 620
   php_extensions:
     - amqp
-    - apc
     - apm
     - bcmath
-    - bcompiler
     - bz2
     - calendar
     - ctype
@@ -25,7 +23,6 @@ db1:
     - dba
     - dom
     - eaccelerator
-    - enchant
     - exif
     - fileinfo
     - filter
@@ -45,30 +42,28 @@ db1:
     - imap
     - interbase
     - intl
-    - ixed
     - json
     - ldap
     - lzf
     - magickwand
     - mbstring
     - mcrypt
-    - memcache
     - memcached
+    - memcache
     - mogilefs
     - mongo
     - mssql
-    - mysql
     - mysqli
+    - mysql
     - ncurses
     - newt
     - oauth
-    - parsekit
     - pcntl
-    - pdo
     - pdo_dblib
     - pdo_firebird
     - pdo_mysql
     - pdo_pgsql
+    - pdo
     - pdo_sqlite
     - pgsql
     - phar
@@ -101,16 +96,14 @@ db1:
     - txforward
     - uploadprogress
     - wddx
-    - wso2
     - xattr
     - xhprof
-    - xml
     - xmlreader
     - xmlrpc
+    - xml
     - xmlwriter
     - xsl
     - yaml
-    - ZendGuardLoader
     - zip
   zend_extensions:
     - ioncube_loader
